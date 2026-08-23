@@ -1,0 +1,140 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "employee_name": "Alice Smith",
+    "trip_start": "2023-10-01",
+    "trip_end": "2023-10-05",
+    "submitted_date": "2023-10-10",
+    "total_claimed": 1110.0,
+    "items": [
+      {
+        "category": "airfare",
+        "description": "Economy class flight",
+        "amount": 420.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "lodging",
+        "description": "Hotel for 2 nights",
+        "amount": 360.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Meals for 3 days",
+        "amount": 180.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "conference",
+        "description": "Conference ticket",
+        "amount": 150.0,
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-002",
+    "employee_name": "Bob Jones",
+    "trip_start": "2023-11-01",
+    "trip_end": "2023-11-02",
+    "submitted_date": "2023-11-05",
+    "total_claimed": 380.0,
+    "items": [
+      {
+        "category": "spa",
+        "description": "Hotel spa treatment",
+        "amount": 300.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "minibar",
+        "description": "Minibar snacks",
+        "amount": 80.0,
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-003",
+    "employee_name": "Charlie Davis",
+    "trip_start": "2023-09-10",
+    "trip_end": "2023-09-12",
+    "submitted_date": "2023-09-15",
+    "total_claimed": 940.0,
+    "items": [
+      {
+        "category": "airfare",
+        "description": "Economy flight",
+        "amount": 300.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "lodging",
+        "description": "Hotel for 2 nights",
+        "amount": 500.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "meals",
+        "description": "Meals for 2 days",
+        "amount": 140.0,
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-004",
+    "employee_name": "Diana Prince",
+    "trip_start": "2023-12-01",
+    "trip_end": "2023-12-03",
+    "submitted_date": "2023-12-05",
+    "total_claimed": 3000.0,
+    "items": [
+      {
+        "category": "airfare",
+        "description": "Business class flight",
+        "amount": 2400.0,
+        "receipt_attached": true
+      },
+      {
+        "category": "lodging",
+        "description": "Hotel",
+        "amount": 600.0,
+        "receipt_attached": false
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-005",
+    "employee_name": "Eve Adams",
+    "trip_start": "2023-08-01",
+    "trip_end": "2023-08-02",
+    "submitted_date": "2023-08-05",
+    "total_claimed": 220.0,
+    "items": [
+      {
+        "category": "meals",
+        "description": "Client dinner for four",
+        "amount": 220.0,
+        "receipt_attached": false
+      }
+    ]
+  },
+  {
+    "claim_id": "CLM-006",
+    "employee_name": "Frank Adams",
+    "trip_start": "2023-08-01",
+    "trip_end": "2023-08-02",
+    "submitted_date": "2023-08-05",
+    "total_claimed": 22990.0,
+    "items": [
+      {
+        "category": "airfare",
+        "description": "Client flight ticket for four",
+        "amount": 22990.0,
+        "receipt_attached": false
+      }
+    ]
+  }
+]

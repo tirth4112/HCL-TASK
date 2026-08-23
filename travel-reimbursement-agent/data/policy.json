@@ -1,0 +1,80 @@
+[
+  {
+    "policy_id": "POL-CAT-01",
+    "title": "Eligible Categories",
+    "category": "general",
+    "policy_text": "Eligible categories for reimbursement include airfare, lodging, meals, ground transportation, and approved business expenses like conferences."
+  },
+  {
+    "policy_id": "POL-CAT-02",
+    "title": "Ineligible Categories",
+    "category": "general",
+    "policy_text": "Ineligible items that will not be reimbursed include alcohol, minibar, spa, gym, personal entertainment, in-room movies, personal shopping, gifts, traffic fines, penalties, late fees, and any personal/non-business expense."
+  },
+  {
+    "policy_id": "POL-PD-01",
+    "title": "Meals Daily Limit",
+    "category": "meals",
+    "policy_text": "Meals are reimbursable up to a maximum of $75 per day."
+  },
+  {
+    "policy_id": "POL-PD-02",
+    "title": "Lodging Daily Limit",
+    "category": "lodging",
+    "policy_text": "Lodging is reimbursable up to a maximum of $200 per night."
+  },
+  {
+    "policy_id": "POL-PD-03",
+    "title": "Ground Transport Limit",
+    "category": "ground_transport",
+    "policy_text": "Ground transportation (e.g., taxis, rideshares, rental cars) is reimbursable up to $50 per day."
+  },
+  {
+    "policy_id": "POL-AIR-01",
+    "title": "Airfare Class Limits",
+    "category": "airfare",
+    "policy_text": "Only economy class airfare is fully eligible for automatic approval. Business or first-class airfare always requires Manual Review."
+  },
+  {
+    "policy_id": "POL-RCT-01",
+    "title": "Receipt Requirements",
+    "category": "receipts",
+    "policy_text": "A receipt is required for any individual expense item over $25. Furthermore, receipts are always required for airfare and lodging, regardless of the amount."
+  },
+  {
+    "policy_id": "POL-RCT-02",
+    "title": "Missing Receipts",
+    "category": "receipts",
+    "policy_text": "If a required receipt is missing, the entire claim must be flagged for Manual Review."
+  },
+  {
+    "policy_id": "POL-APR-01",
+    "title": "Auto-Approval Threshold",
+    "category": "approval",
+    "policy_text": "Claims with a total reimbursable amount less than or equal to $500 are eligible for Auto-Approval."
+  },
+  {
+    "policy_id": "POL-APR-02",
+    "title": "Manager Tier Threshold",
+    "category": "approval",
+    "policy_text": "Claims with a total reimbursable amount strictly greater than $500 and less than or equal to $2,000 require Manager Tier approval (which can be handled by the normal review rules)."
+  },
+  {
+    "policy_id": "POL-APR-03",
+    "title": "Manual Review Threshold",
+    "category": "approval",
+    "policy_text": "Claims with a total reimbursable amount strictly greater than $2,000 must be flagged for Manual Review."
+  },
+  {
+    "policy_id": "POL-TIME-01",
+    "title": "Submission Timeliness",
+    "category": "timeliness",
+    "policy_text": "Claims must be submitted within 30 days of the trip end date. Claims submitted after 30 days require Manual Review."
+  },
+  {
+    "policy_id": "POL-DIG-01",
+    "title": "Digital Receipt Formatting",
+    "category": "receipts",
+    "policy_text": "All employee bills must be submitted in PDF, JPG, or PNG formats. Physical receipts must be clearly scanned without motion blur. Illegible receipts will result in a Manual Review."
+  }
+]
