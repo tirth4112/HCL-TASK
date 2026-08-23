@@ -70,5 +70,9 @@ When providing the claim: *"I spent $2400 on a Business-class international flig
 - **Receipt Parsing:** The current UI assumes the user provides a boolean flag for `receipt_attached`. In a production system, this would be hooked up to an OCR tool (like AWS Textract or Azure Document Intelligence) to parse physical image files.
 - **Single User Context:** The interactive Jupyter dashboard manages global state for the session. In a production API, state would be managed per-request via a robust caching layer like Redis.
 
-## 🎥 Demo Walkthrough
+## 🎥 Demo & UI Screenshots
+I have built a complete, interactive Plotly dashboard UI directly within Jupyter Notebook. 
+A screenshot of the user interface processing a claim can be found in the root of this repository:
+- **`UI SS_1.png`** (Live Dashboard & Audit Trail)
+
 *(Note: A comprehensive video walkthrough of the Jupyter Lab interface handling live claims is available upon request).*
